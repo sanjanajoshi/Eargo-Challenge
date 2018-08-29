@@ -28,7 +28,7 @@ So, if the least price is on the last day (i.e the stock prices go in a decreasi
 		|Day 	|		4	|	$55	|
 		|Day	 |		5	|	$38	|
 		|Day 	|		6	|	$1	|
-		|Day 	|		7	 |	$7	|
+		|Day 	|		7	|	$7	|
 		|Day 	|		8	|	$42	|
 		|Day 	|		9	|	$54	|
 		|Day 	|		10	|	$53	|
