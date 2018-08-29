@@ -2,9 +2,9 @@
 Problem 1:
  Write a function to calculate change for given number (number represents cents) 
 The function will return list, vector or collection of numbers representing the number of 
-quarters(25), dimes(10), nickels (5), pennies (1) that would yield the correct change.
-# Example:
-# For 83¢, the function will return 3 quarters, 0 dime, 1 nickel and 3 pennies.
+quarters(25), dimes(10), nickels (5), pennies (1) that would yield the correct change. 
+#Example: For 83cents, the function will return 3 quarters, 0 dime, 1 nickel and 3 pennies.
+
 Solution: The idea is to use the greedy approach i.e for a given number it tries to give as many quarters as possible first. Then, it goes on to check dime, nickel and pennies in the last.
 HOW TO EXECUTE THE PROGRAM:
 1. Run the program on Eclipse
@@ -14,10 +14,9 @@ Problem 2:
 Write a function to find out the best Buying and Selling day for maximum gain from daily stock prices of last 10 days. Following are 2 rules,
 1.	Buy first
 2.	You can only buy once and sell once
-
-# Example:
-# Below table represents stock_price for last 10 days: 
-# Function should return Day 6 as buying day and Day 9 as selling day. Total gain is $53.
+#Example:
+#Below table represents stock_price for last 10 days:
+#Function should return Day 6 as buying day and Day 9 as selling day. Total gain is $53.
 
 Day	Stock Price
 Day 1	$3
