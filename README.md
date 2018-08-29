@@ -6,14 +6,15 @@ quarters(25), dimes(10), nickels (5), pennies (1) that would yield the correct c
 #Example: For 83cents, the function will return 3 quarters, 0 dime, 1 nickel and 3 pennies.
 
 Solution: The idea is to use the greedy approach i.e for a given number it tries to give as many quarters as possible first. Then, it goes on to check dime, nickel and pennies in the last.
+If the entered number is negative, then the program just exits. As I'm considering amount/cents cannot be negative.
 HOW TO EXECUTE THE PROGRAM:
 1. Run the program on Eclipse
 2. Enter a positive integer
 
 Problem 2:
 Write a function to find out the best Buying and Selling day for maximum gain from daily stock prices of last 10 days. Following are 2 rules,
-1.	Buy first
-2.	You can only buy once and sell once
+1.Buy first
+2.You can only buy once and sell once
 #Example:
 #Below table represents stock_price for last 10 days:
 #Function should return Day 6 as buying day and Day 9 as selling day. Total gain is $53.
