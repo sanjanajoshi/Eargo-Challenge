@@ -20,18 +20,18 @@ Write a function to find out the best Buying and Selling day for maximum gain fr
 														
 Solution: The idea is to find the price that is the least in the past ten days, that day would be the buying day of the stock and that will be the buying price. After the buying day, we search for the price that is maximum in the remaining number of days so that we can sell the stock and the selling price - buying price gives us the maximum profit.
 So, if the least price is on the last day (i.e the stock prices go in a decreasing order from 1st day then we would incur 0 maximum profit as we cannot sell it in the past 10 days considering the rules of buy first and then sell and both can be done only once.)
-		|Day		|	Stock 	|	Price|
-		| --- | --- | --- |
-		|Day	|		1	|	$3	|
-		|Day 	|		2	|	$8	|
-		||Day 	|		3	|	$8	|
-		|Day 	|		4	|	$55	|
-		|Day	 |		5	|	$38	|
-		|Day 	|		6	|	$1	|
-		|Day 	|		7	|	$7	|
-		|Day 	|		8	|	$42	|
-		|Day 	|		9	|	$54	|
-		|Day 	|		10	|	$53	|
+Day Stock Price
+Day 1	$3
+Day 2	$8
+Day 3	$8
+Day 4	$55
+Day 5	$38
+Day 6	$1
+Day 7	$7
+Day 8	$42
+Day 9	$54
+Day 10	$53
+	
 
 HOW TO EXECUTE THE PROGRAM:
 1. Run the program on Eclipse
