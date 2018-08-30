@@ -11,8 +11,15 @@ public class CalculateChange {
 		// TODO Auto-generated method stub
 		System.out.println("Enter a number ");
 		//scanning the input
+		int cents =0;
 		Scanner sc = new Scanner(System.in);
-		int cents = sc.nextInt();
+		try{
+		        cents = sc.nextInt();
+		}
+		catch(InputMismatchException e){
+			System.out.println("Print a valid integer number");
+			System.exit(1);
+		}
 		sc.close();
 		if(cents < 0){
 			//money or cents cannot be a negative number hence exiting
@@ -28,8 +35,7 @@ public class CalculateChange {
 			System.out.println(ans);
 		}*/
 	}
-	
-	
+		
 	//Function to calculate the change
 	/*
 	 * params
